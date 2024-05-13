@@ -1,0 +1,55 @@
+.table-product {
+    width: 80%;
+    min-height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    thead {
+       
+        background-color: rgba(186, 181, 181, 0.679);
+        font-size: 20px;
+        position: relative;
+        tr {
+            height: 40px;
+            .box-number {
+                width: 80px;
+            }
+            .box-avatar {
+                width: 150px;
+            }
+            .box-price {
+                width: 150px;
+            }
+            .box-quantity {
+                width: 80px;
+            }
+            .box-total {
+                width: 150px;
+            }
+            .box-tool {
+                width: 150px;
+            }
+        }
+    }
+    tbody {
+        
+        min-height: 40px;
+        tr {
+            height: 80px;
+            text-align: center;
+            background-color: rgba(245, 222, 179, 0.262);
+        }
+    }
+    .btn-cart{
+        width: 107px;
+        height: 40px;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        position: absolute;
+        top: 190px;
+        right: 190px;
+        background-color: rgba(0, 0, 0, 0.612);
+        border-radius: 9px;
+    }
+}
